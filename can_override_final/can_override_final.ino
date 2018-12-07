@@ -1,6 +1,8 @@
 #include <mcp_can.h>
 #include <SPI.h>
 
+int g = 9;
+
 #define NUM_BUTTONS 100
 
 const int SPI_CS_PIN = 53;
